@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div>
-      <h1>React is dev</h1>
+      <h1 className='text-red-500'>hell im erfan</h1>
       {data ? <p>{data.message}</p> : <p>Loading...</p>}
     </div>
   );
